@@ -1,0 +1,186 @@
+body{  
+    background: black ;
+}
+
+html{  
+    scroll-behavior: smooth;
+}
+
+ .row {  
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+/* div.row.col {  
+    padding: 0rem;
+    margin: 0px;
+} */
+
+.row .col{
+    padding: 0;
+    margin: 0;
+} 
+
+div .left-background1 {   
+background-image: url(../img/main/witcher3_back.png) ;
+height: 50vh;
+width: 50%;
+background-repeat: no-repeat;
+} 
+
+div .right-background2{
+    background-image: url(../img/main/c_programming.jpg);
+    background-repeat: no-repeat;
+    /* background-position:cover; */
+    width: 100%;
+    height: 50vh;
+}
+
+div .left-background3{
+    background-image: url(../img/main/python_programming1.png);
+    height: 50vh;
+    
+    background-repeat: no-repeat;
+}
+
+div .right-background4{
+    background-image: url(../img/main/team_code.png);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.hover-reduc-opacity:hover {  
+    opacity: .5;
+}
+
+.redirect-button { 
+    z-index: 69; 
+    display: flex;
+    text-align: center;
+    visibility: hidden;
+    transition: opacity .25s,visibility .25s 30ms;
+}
+
+.btn-large { 
+    background-color: transparent;
+    border: 1px solid green;
+}
+
+/* .btn-large:hover { 
+    background-color: black;
+    opacity: 1;
+} */
+
+.col:hover .redirect-button {  
+    visibility: visible;
+}
+
+
+
+
+/* Start Cards Image from team.html */
+
+/* .card-image{
+    width: 40%;
+} */
+
+/* End Cards Image from team.html */
+
+
+.carousel{
+    height: 25vh;
+}
+
+.footer-dark {
+    font-family: 'ProximaNova', 'Arial Narrow', 'Verdana', sans-serif;
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #000;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
