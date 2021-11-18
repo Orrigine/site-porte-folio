@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 a.brand-logo:hover { 
     background-color: rgba(0, 0, 0, 0.1);
     transition: background-color .3s;
@@ -9,4 +10,12 @@ a.brand-logo:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+
+.section{
+    background-color:#00CCCC;
+}   
+
+.carousel{
+    height: 400px;
 }

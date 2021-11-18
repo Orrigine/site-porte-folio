@@ -9,3 +9,17 @@ a.brand-logo:hover {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+
+nav {  
+    background-color:#ffff00
+}
+
+
+footer {  
+    background-color:#ffff00
+
+}
+
+nav a {
+    color: black;
+  }
