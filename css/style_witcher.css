@@ -1,5 +1,6 @@
 html{  
     scroll-behavior: smooth;
+    background-color: black !important;
 }
 
 a.brand-logo:hover { 
@@ -9,4 +10,25 @@ a.brand-logo:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+h1 {  
+    color: rgb(255, 153, 0);
+}
+
+h2 {  
+    color: rgb(255, 153, 0);
+}
+p { 
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+nav {  
+    background-color: transparent ;
+    
+}
+
+footer.page-footer {
+    padding-top: 20px;
+    background-color: black;
 }

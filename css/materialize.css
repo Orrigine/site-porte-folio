@@ -2817,7 +2817,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 750px;
 }
 
 .parallax-container .parallax {
@@ -4334,7 +4334,8 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 nav .brand-logo.center {
