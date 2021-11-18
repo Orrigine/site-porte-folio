@@ -2,6 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
+h1{
+    font-family: 'Manrope', sans-serif;
+}
 
 a.brand-logo:hover { 
     background-color: rgba(0, 0, 0, 0.1);
