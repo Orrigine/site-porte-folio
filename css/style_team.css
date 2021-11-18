@@ -12,6 +12,10 @@ h1{
     font-weight: bold;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
 h3{
     text-decoration: underline;
 }
@@ -60,6 +64,19 @@ h3{
 .card .card-reveal.jesus{
     background-image: url(../img/team/inconnus-jesus.gif);
 }
+
+/* Progress bar START */
+.progress{
+    width: 100px;
+    margin-top: 25px;
+    background-color:black;
+}
+.progress .derteminate{
+    background-color: red;
+}
+/* Progress bar END */
+
+
 
 .page-footer{
     background-color: transparent;
