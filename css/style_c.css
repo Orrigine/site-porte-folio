@@ -19,10 +19,16 @@ a.brand-logo:hover {
     background-color:#00CCCC;
 }   
 
-.carousel{
-    height: 400px;
+
+
+div .btn {
+    margin-top:  20px;  
+    background-color: rgb(255, 153, 0)
 }
-/* 
-.margin-h5-footer {  
-    margin-left: 70px;
-} */
+.btn:hover {  
+    background-color: rgba(255, 153, 0, .5)
+}
+
+div .modal-close { 
+    border: 1px solid white; 
+}

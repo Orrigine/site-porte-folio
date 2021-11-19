@@ -10,24 +10,17 @@ $(document).ready(function(){
 
 
 
-  // Or with jQuery
-
+// Modal code
   $(document).ready(function(){
-    $('.modal1').modal();
+    $('.modal').modal();
   });
 
+  $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });
+        
 
 
-
-var test_btn = document.querySelectorAll("div.modal2");
-
-for (var i = 0; i < test_btn.length; i++) {
-    test_btn[i].onclick = function(e) {
-       e.preventDefault();
-       modal = document.querySelector(e.target.getAttribute("href"));
-       modal.style.display = "block";
-    }
-   }
 
 //   $('#textarea1').val('New Text');
 //   M.textareaAutoResize($('#textarea1'));
@@ -204,11 +197,8 @@ for (var i = 0; i < test_btn.length; i++) {
                           }
 
 
-<<<<<<< HEAD
                           //END SNAKE
-=======
-                          //END SNAKE
+                          
 
 
 
->>>>>>> e206e6d33be6be2d3e349b35ffe0b1fde25ed457
