@@ -15,7 +15,7 @@ a.brand-logo:hover {
     transition-delay: 0s;
 }
 
-.section{
+div.section{
     background-color:#00CCCC;
 }   
 
@@ -23,10 +23,11 @@ a.brand-logo:hover {
 
 div .btn {
     margin-top:  20px;  
-    background-color: rgb(255, 153, 0)
+    background-color: #00CCCC;
 }
 .btn:hover {  
-    background-color: rgba(255, 153, 0, .5)
+    background-color: #00CCCC;
+    opacity: .6;
 }
 
 div .modal-close { 

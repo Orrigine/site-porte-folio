@@ -15,16 +15,12 @@ a.brand-logo:hover {
     transition-delay: 0s;
 }
 
-nav {  
-    background-color:#ffff00
+nav, footer.page-footer {  
+    background-color:#dd713f;
 }
 
 
-footer {  
-    background-color:#ffff00
-
-}
-
+ 
 
 
 nav a {
@@ -34,10 +30,10 @@ nav a {
 
   div .btn {
     margin-top:  20px;  
-    background-color: rgb(255, 153, 0)
+    background-color: rgba(0, 255, 191, 0.726)
 }
 .btn:hover {  
-    background-color: rgba(255, 153, 0, .5)
+    background-color: rgba(0, 255, 191, .5)
 }
 
 div .modal-close { 
