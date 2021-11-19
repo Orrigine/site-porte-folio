@@ -1,8 +1,13 @@
 html{  
     scroll-behavior: smooth;
 }
+body {
+    background-image: linear-gradient(180deg, #00d4ff 10%, #090979 55%,#020024 70% );
+}
 
-
+h1{
+    text-align: center;
+}
 
 a.brand-logo:hover { 
     background-color: rgba(0, 0, 0, 0.1);
@@ -13,6 +18,36 @@ a.brand-logo:hover {
     transition-delay: 0s;
 }
 
-.card-reveal{
-    background-color: yellow;
+.game-box {
+    text-align:center;   
 }
+
+.game-info {
+    text-align:center; 
+    font-family:arial;
+    line-height:24px;
+}
+
+.carousel{
+    height: 700px;
+}
+
+h3{
+    color: black;
+}
+
+.card{
+    height:600px;
+    background-color:transparent;
+    background-color: rgba(32, 12, 12, 0.2)
+}
+
+.card .card-reveal{
+    background-image: url(../img/team/nyan-cat-rainbow.gif);
+
+}
+
+.card .card-reveal.jesus{
+    background-image: url(../img/team/inconnus-jesus.gif);
+}
+
