@@ -2,13 +2,27 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-image: linear-gradient(180deg, #00d4ff 10%, #090979 55%,#020024 70% );
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 }
 
 h1{
     text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: transparent;
+}
 a.brand-logo:hover { 
     background-color: rgba(0, 0, 0, 0.1);
     transition: background-color .3s;
@@ -29,7 +43,7 @@ a.brand-logo:hover {
 }
 
 .carousel{
-    height: 700px;
+    height: 800px;
 }
 
 h3{
@@ -37,7 +51,7 @@ h3{
 }
 
 .card{
-    height:600px;
+    height: 800px;
     background-color:transparent;
     background-color: rgba(32, 12, 12, 0.2)
 }
@@ -51,3 +65,19 @@ h3{
     background-image: url(../img/team/inconnus-jesus.gif);
 }
 
+/* Progress bar START */
+.progress{
+    width: 100px;
+    margin-top: 25px;
+    background-color:black;
+}
+.progress .derteminate{
+    background-color: red;
+}
+/* Progress bar END */
+
+
+
+.page-footer{
+    background-color: transparent;
+}

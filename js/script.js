@@ -9,6 +9,31 @@ $(document).ready(function(){
 });
 
 
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal1').modal();
+  });
+
+
+
+
+var test_btn = document.querySelectorAll("div.modal2");
+
+for (var i = 0; i < test_btn.length; i++) {
+    test_btn[i].onclick = function(e) {
+       e.preventDefault();
+       modal = document.querySelector(e.target.getAttribute("href"));
+       modal.style.display = "block";
+    }
+   }
+
+//   $('#textarea1').val('New Text');
+//   M.textareaAutoResize($('#textarea1'));
+          
+
+
 //   $(".col").hover(function() {
 //     $(this).next('.redirect-button').fadeIn();
 //   }, function() {
@@ -179,4 +204,11 @@ $(document).ready(function(){
                           }
 
 
+<<<<<<< HEAD
                           //END SNAKE
+=======
+                          //END SNAKE
+
+
+
+>>>>>>> e206e6d33be6be2d3e349b35ffe0b1fde25ed457

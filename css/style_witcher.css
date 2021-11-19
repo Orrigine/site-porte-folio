@@ -1,5 +1,10 @@
 html{  
     scroll-behavior: smooth;
+    background-color: black !important;
+}
+
+h1{
+    font-family: 'Manrope', sans-serif;
 }
 
 a.brand-logo:hover { 
@@ -9,4 +14,43 @@ a.brand-logo:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+h1,h2 {  
+    color: rgb(255, 153, 0);
+}
+
+
+p { 
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+nav {  
+    background-color: transparent ;
+    
+}
+
+div .btn {
+    margin-top:  20px;  
+    background-color: rgb(255, 153, 0)
+}
+.btn:hover {  
+    background-color: rgba(255, 153, 0, .5)
+}
+
+div .modal-close { 
+    border: 1px solid white; 
+}
+
+
+hr {
+    margin-top: 200px;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+footer.page-footer {
+    padding-top: 100px;
+    background-color: black;
 }
