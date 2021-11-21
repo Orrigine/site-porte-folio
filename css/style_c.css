@@ -15,10 +15,21 @@ a.brand-logo:hover {
     transition-delay: 0s;
 }
 
-.section{
+div.section{
     background-color:#00CCCC;
 }   
 
-.carousel{
-    height: 400px;
+
+
+div .btn {
+    margin-top:  20px;  
+    background-color: #00CCCC;
+}
+.btn:hover {  
+    background-color: #00CCCC;
+    opacity: .6;
+}
+
+div .modal-close { 
+    border: 1px solid white; 
 }
