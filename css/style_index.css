@@ -34,11 +34,13 @@ div.back {
     z-index: 0;
     
 }
-div.left-background1 {   
-    background-image: url(../img/main/witcher3_back.png) ;
 
-    /* height: 960px;
-    width: 540px; */
+div .left-background1 {   
+background-image: url(../img/main/witcher3_back.png) ;
+height: 50vh;
+width: 50%;
+background-repeat: no-repeat;
+background-position: center center;
 } 
 
 div.right-background2{
