@@ -46,6 +46,10 @@ a.brand-logo:hover {
     height: 800px;
 }
 
+.carousel .indicators{
+    position: relative;
+}
+
 h3{
     color: black;
 }
