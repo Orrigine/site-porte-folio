@@ -9,7 +9,8 @@ html{
 h1{
     font-family: 'Manrope', sans-serif;
 }
- .row {  
+
+.row {  
     margin-bottom: 0px;
     padding: 0px;
 }
@@ -24,46 +25,36 @@ h1{
     margin: 0;
 } 
 
-
-
-div.front {  
-    z-index: 3;
-}
-
-div.back {  
-    z-index: 0;
-    
-}
-
 div .left-background1 {   
-background-image: url(../img/main/witcher3_back.png) ;
-height: 50vh;
-width: 50%;
-background-repeat: no-repeat;
-background-position: center center;
+    background-image: url(../img/main/witcher3_back.png) ;
+    height: 50vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
 } 
 
-div.right-background2{
+div .right-background2{
     background-image: url(../img/main/c_programming.jpg);
-    /* height: 960px;
-    width: 540px; */
+    background-repeat: no-repeat;
+    /* background-position:cover; */
+    width: 100%;
+    height: 50vh;
+    background-position: center center;
 }
 
-div.left-background3{
-    background-image: url(../img/main/python_programming.jpg);
-
-    /* height: 960px;
-    width: 540px; */
-    
-  
+div .left-background3{
+    background-image: url(../img/main/python_programming1.png);
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-div.right-background4{
+div .right-background4{
     background-image: url(../img/main/team_code.png);
-   
-    /* height: 960px;
-    width: 540px; */
- 
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .hover-reduc-opacity:hover {  
