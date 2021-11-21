@@ -24,33 +24,44 @@ h1{
     margin: 0;
 } 
 
-div .left-background1 {   
-background-image: url(../img/main/witcher3_back.png) ;
-height: 50vh;
-width: 50%;
-background-repeat: no-repeat;
+
+
+div.front {  
+    z-index: 3;
+}
+
+div.back {  
+    z-index: 0;
+    
+}
+div.left-background1 {   
+    background-image: url(../img/main/witcher3_back.png) ;
+
+    /* height: 960px;
+    width: 540px; */
 } 
 
-div .right-background2{
+div.right-background2{
     background-image: url(../img/main/c_programming.jpg);
-    background-repeat: no-repeat;
-    /* background-position:cover; */
-    width: 100%;
-    height: 50vh;
+    /* height: 960px;
+    width: 540px; */
 }
 
-div .left-background3{
-    background-image: url(../img/main/python_programming1.png);
-    height: 50vh;
+div.left-background3{
+    background-image: url(../img/main/python_programming.jpg);
+
+    /* height: 960px;
+    width: 540px; */
     
-    background-repeat: no-repeat;
+  
 }
 
-div .right-background4{
+div.right-background4{
     background-image: url(../img/main/team_code.png);
-    background-size: cover;
-    height: 50vh;
-    background-repeat: no-repeat;
+   
+    /* height: 960px;
+    width: 540px; */
+ 
 }
 
 .hover-reduc-opacity:hover {  

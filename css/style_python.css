@@ -1,5 +1,6 @@
 html{  
     scroll-behavior: smooth;
+    background-color:#1976D2;
 }
 
 h1{
@@ -16,10 +17,12 @@ a.brand-logo:hover {
 }
 
 nav, footer.page-footer {  
-    background-color:#dd713f;
+    background-color: black;
 }
 
-
+p { 
+    color: black;
+}
  
 
 
