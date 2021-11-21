@@ -1,24 +1,33 @@
-body{  
-    background: black ;
-}
 
 html{  
     scroll-behavior: smooth;
+    
+}
+
+body{  
+    background-color: #00CCCC;
 }
 
 h1{
     font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    font-weight: bold;
 }
 
+nav { 
+    background-color: transparent;
+}
 .row {  
     margin-bottom: 0px;
     padding: 0px;
 }
 
-/* div.row.col {  
-    padding: 0rem;
-    margin: 0px;
-} */
+div.center-middle { 
+    z-index:3;
+    color:red;
+    display: inline-block;
+    
+}
 
 .row .col{
     padding: 0;
@@ -36,7 +45,7 @@ div .left-background1 {
 div .right-background2{
     background-image: url(../img/main/c_programming.jpg);
     background-repeat: no-repeat;
-    /* background-position:cover; */
+    
     width: 100%;
     height: 50vh;
     background-position: center center;
@@ -58,7 +67,8 @@ div .right-background4{
 }
 
 .hover-reduc-opacity:hover {  
-    opacity: .5;
+    opacity: .8;
+    background-color: black;
 }
 
 .redirect-button { 
@@ -74,10 +84,7 @@ div .right-background4{
     border: 1px solid green;
 }
 
-/* .btn-large:hover { 
-    background-color: black;
-    opacity: 1;
-} */
+
 
 .col:hover .redirect-button {  
     visibility: visible;
@@ -86,13 +93,6 @@ div .right-background4{
 
 
 
-/* Start Cards Image from team.html */
-
-/* .card-image{
-    width: 40%;
-} */
-
-/* End Cards Image from team.html */
 
 
 .carousel{
