@@ -1,82 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Witcher 3 : Wild Hunt</title>
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-<link rel="stylesheet" href="./css/style_witcher.css">
-<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Presentation</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="./css/style_index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Navbar -->
-    <div class="navbar-fixed">
-        <nav class="nav-color">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Begin of first line -->
+    <div class="head-title">
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo z-depth-2" >Main Page</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down z-depth-1">
-                    <li><a class="z-depth-1" href="#project">The project</a></li>
-                    <li><a class="z-depth-1" href="#witcher">About the witcher</a></li>
-                    <li><a class="z-depth-1" href="./The Witcher Project/index.html">Link to the website</a></li>
-                </ul>
+                <h1 class="white-text center">Portfolio</h1>
             </div>
-        </nav>
     </div>
-
-  <div class="parallax-container">
-    <div class="parallax"><img src="./img/the_witcher/paral1_witcher.png" alt="The Witcher 3"></div>
-  </div>
-
-  <div class="section black">
-    <div class="row container">
-      <h1 class="header" id="project">The aim of the project</h1>
-      <div class="row">
-        <div class="col l1"></div>
-          <div class="col l11">
-      <p class="white-text text-darken-3 lighten-3">The purpose of this project, is to train us on HTML with CSS and the rules of SEO. We learned the significance of organizing our ideas and setting up our schedule in order to not be overhelmed by the two weeks we had to create this site that we're proud of.    </p>
+    <div class="row no-padding no-margin ">
+        <div class=" responsive-img col l6 m6 s12 left-background1 hover-reduc-opacity valign-wrapper ">
+            <div class="redirect-button text-center">
+                <a class="waves-effect waves-light btn-large" href="./the_witcher.php">The Witcher III</a>
+            </div>
+            
+        </div>
+        <div class=" responsive-img col l6 m6 s12  right-background2 hover-reduc-opacity valign-wrapper ">
+            <div class="redirect-button text-center">
+                <a class="waves-effect waves-light btn-large" href="./project_c.php">C Programming</a>
             </div>
         </div>
     </div>
-  </div>    
   
-  <div class="parallax-container">
-    <div class="parallax"><img src="./img/the_witcher/paral2_witcher.png" alt="The Witcher 3"></div>
-  </div>
-
-  <div class="section black">
-    <div class="row container">
-      <h2 class="header" id="witcher">About The Witcher III : Wild Hunt</h2>
-      <div class="row">
-        <div class="col l1"></div>
-          <div class="col l11">
-
-              <p class="white-text text-darken-3 lighten-3">The Witcher III : Wild Hunt is a game developped by <span class="red-text ">CD PROJEKT: RED</span>, a well-known polish studio in 2015. We choose this game because we <span><a class="white-text" target="blank" href="UwU.html">love</a></span> the universe of the saga, and the gameplay of this rewareded RPG open world is a pleasure to play. The artistic direction of the game is wonderful and landscapes are even more. When you launch the game, you'll be took in an incredible environement and a beautiful journey.</p>
+<!-- End of first line -->
+  <div class="row no-padding no-margin">
+        <div class="responsive-img left-background3 col l6 m6 s12  hover-reduc-opacity valign-wrapper ">
+            <div class="redirect-button text-center">
+                <a class="bttn waves-effect waves-light btn-large" href="./project_python.php">Python Programming</a>
+            </div>
         </div>
-              
-      </div>
+
+       
+      <div class="responsive-img right-background4  col l6 m6 s12  hover-reduc-opacity valign-wrapper ">
+            <div class="redirect-button text-center">
+                <a class="bttn waves-effect waves-light btn-large" href="./team.php">About the Team</a>
+            </div>
+        </div>
     </div>
-  </div> 
-
-<div class="parallax-container ">
-  <div class="parallax"><img src="./img/the_witcher/preview_site.png" alt="The Witcher 3"></div>
-</div>
-  
-<hr>
 
 
-<footer class="page-footer">
+
+
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
 
           <h5 class="white-text">Contact Us</h5>
-          <p class="no-padding grey-text text-lighten-4">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.html">below</a></span>.</p>
+          <p class="no-padding grey-text text-lighten-4">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.php">below</a></span>.</p>
 
 
 
@@ -143,7 +137,7 @@
             <!--Second Modal Structure -->
             <div id="modal2" class=" black modal modal2">
               <div class=" white-text modal-content">
-                <h4 class="center valign-wrapper">Thanks for your message !</h4>
+                <h4 class="center valign-wrapper">Thanks for your message ! </h4>
                 
               </div>
               <div class="black white-text modal-footer">
@@ -189,13 +183,13 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.html">Yaoi</a></span> Team
+        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.php">Yaoi</a></span> Team
       </div>
     </div>
   </footer>
-
-<script src="./js/jQuery.js"></script>
-<script src="./js/materialize.js"></script>
-<script src="./js/script.js"></script>
+        
+  <script src="./js/jQuery.js"></script>
+  <script src="./js/materialize.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

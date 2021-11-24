@@ -784,7 +784,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     },
 
     empty: function () {
-      this.html("");
+      this.php("");
       return this;
     },
 
@@ -4495,14 +4495,14 @@ $jscomp.polyfill = function (e, r, p, m) {
 
         var tooltipContentEl = document.createElement('div');
         tooltipContentEl.classList.add('tooltip-content');
-        tooltipContentEl.innerHTML = this.options.html;
+        tooltipContentEl.innerHTML = this.options.php;
         tooltipEl.appendChild(tooltipContentEl);
         document.body.appendChild(tooltipEl);
       }
     }, {
       key: "_updateTooltipContent",
       value: function _updateTooltipContent() {
-        this.tooltipEl.querySelector('.tooltip-content').innerHTML = this.options.html;
+        this.tooltipEl.querySelector('.tooltip-content').innerHTML = this.options.php;
       }
     }, {
       key: "_setupEventHandlers",
@@ -4731,7 +4731,7 @@ $jscomp.polyfill = function (e, r, p, m) {
         var positionOption = this.el.getAttribute('data-position');
 
         if (tooltipTextOption) {
-          attributeOptions.html = tooltipTextOption;
+          attributeOptions.php = tooltipTextOption;
         }
 
         if (positionOption) {
@@ -5126,7 +5126,7 @@ $jscomp.polyfill = function (e, r, p, m) {
        * @member Toast#options
        */
       this.options = $.extend({}, Toast.defaults, options);
-      this.message = this.options.html;
+      this.message = this.options.php;
 
       /**
        * Describes current pan state toast
@@ -6715,7 +6715,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             beforeMatch = $el.text().slice(0, matchStart),
             matchText = $el.text().slice(matchStart, matchEnd + 1),
             afterMatch = $el.text().slice(matchEnd + 1);
-        $el.html("<span>" + beforeMatch + "<span class='highlight'>" + matchText + "</span>" + afterMatch + "</span>");
+        $el.php("<span>" + beforeMatch + "<span class='highlight'>" + matchText + "</span>" + afterMatch + "</span>");
         if (img.length) {
           $el.prepend(img);
         }
@@ -7013,8 +7013,8 @@ $jscomp.polyfill = function (e, r, p, m) {
     }
 
     hiddenDiv.text($textarea[0].value + '\n');
-    var content = hiddenDiv.html().replace(/\n/g, '<br>');
-    hiddenDiv.html(content);
+    var content = hiddenDiv.php().replace(/\n/g, '<br>');
+    hiddenDiv.php(content);
 
     // When textarea is hidden, width goes crazy.
     // Approximate with half of window size
@@ -9956,7 +9956,7 @@ $jscomp.polyfill = function (e, r, p, m) {
               left: this.options.dialRadius + Math.sin(radian) * radius - this.options.tickRadius + 'px',
               top: this.options.dialRadius - Math.cos(radian) * radius - this.options.tickRadius + 'px'
             });
-            tick.html(i === 0 ? '00' : i);
+            tick.php(i === 0 ? '00' : i);
             this.hoursView.appendChild(tick[0]);
             // tick.on(mousedownEvent, mousedown);
           }
@@ -9970,7 +9970,7 @@ $jscomp.polyfill = function (e, r, p, m) {
               left: this.options.dialRadius + Math.sin(_radian) * _radius - this.options.tickRadius + 'px',
               top: this.options.dialRadius - Math.cos(_radian) * _radius - this.options.tickRadius + 'px'
             });
-            _tick.html(_i2 === 0 ? '00' : _i2);
+            _tick.php(_i2 === 0 ? '00' : _i2);
             this.hoursView.appendChild(_tick[0]);
             // tick.on(mousedownEvent, mousedown);
           }
@@ -9988,7 +9988,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             left: this.options.dialRadius + Math.sin(radian) * this.options.outerRadius - this.options.tickRadius + 'px',
             top: this.options.dialRadius - Math.cos(radian) * this.options.outerRadius - this.options.tickRadius + 'px'
           });
-          tick.html(Timepicker._addLeadingZero(i));
+          tick.php(Timepicker._addLeadingZero(i));
           this.minutesView.appendChild(tick[0]);
         }
       }
@@ -10404,7 +10404,7 @@ $jscomp.polyfill = function (e, r, p, m) {
           this._validateInput();
         }
 
-        $(this.counterEl).html(counterString);
+        $(this.counterEl).php(counterString);
       }
 
       /**
@@ -11914,7 +11914,7 @@ $jscomp.polyfill = function (e, r, p, m) {
         var multipleCheckbox = this.isMultiple ? "<label><input type=\"checkbox\"" + disabledClass + "\"/><span>" + option.innerHTML + "</span></label>" : option.innerHTML;
         var liEl = $('<li></li>');
         var spanEl = $('<span></span>');
-        spanEl.html(multipleCheckbox);
+        spanEl.php(multipleCheckbox);
         liEl.addClass(disabledClass + " " + optgroupClass);
         liEl.append(spanEl);
 
@@ -12188,7 +12188,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     }, {
       key: "_handleRangeChange",
       value: function _handleRangeChange() {
-        $(this.value).html(this.$el.val());
+        $(this.value).php(this.$el.val());
 
         if (!$(this.thumb).hasClass('active')) {
           this._showRangeBubble();
@@ -12207,7 +12207,7 @@ $jscomp.polyfill = function (e, r, p, m) {
       key: "_handleRangeMousedownTouchstart",
       value: function _handleRangeMousedownTouchstart(e) {
         // Set indicator value
-        $(this.value).html(this.$el.val());
+        $(this.value).php(this.$el.val());
 
         this._mousedown = true;
         this.$el.addClass('active');
@@ -12236,7 +12236,7 @@ $jscomp.polyfill = function (e, r, p, m) {
 
           var offsetLeft = this._calcRangeOffset();
           $(this.thumb).addClass('active').css('left', offsetLeft + 'px');
-          $(this.value).html(this.$el.val());
+          $(this.value).php(this.$el.val());
         }
       }
 

@@ -670,7 +670,7 @@ var i,
 	rsibling = /[+~]/,
 
 	// CSS escapes
-	// http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
+	// http://www.w3.org/TR/CSS21/syndata.php#escaped-characters
 	runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace + "?|\\\\([^\\r\\n\\f])", "g" ),
 	funescape = function( escape, nonHex ) {
 		var high = "0x" + escape.slice( 1 ) - 0x10000;
@@ -1026,16 +1026,16 @@ function createDisabledPseudo( disabled ) {
 	return function( elem ) {
 
 		// Only certain elements can match :enabled or :disabled
-		// https://html.spec.whatwg.org/multipage/scripting.html#selector-enabled
-		// https://html.spec.whatwg.org/multipage/scripting.html#selector-disabled
+		// https://html.spec.whatwg.org/multipage/scripting.php#selector-enabled
+		// https://html.spec.whatwg.org/multipage/scripting.php#selector-disabled
 		if ( "form" in elem ) {
 
 			// Check for inherited disabledness on relevant non-disabled elements:
 			// * listed form-associated elements in a disabled fieldset
-			//   https://html.spec.whatwg.org/multipage/forms.html#category-listed
-			//   https://html.spec.whatwg.org/multipage/forms.html#concept-fe-disabled
+			//   https://html.spec.whatwg.org/multipage/forms.php#category-listed
+			//   https://html.spec.whatwg.org/multipage/forms.php#concept-fe-disabled
 			// * option elements in a disabled optgroup
-			//   https://html.spec.whatwg.org/multipage/forms.html#concept-option-disabled
+			//   https://html.spec.whatwg.org/multipage/forms.php#concept-option-disabled
 			// All such elements have a "form" property.
 			if ( elem.parentNode && elem.disabled === false ) {
 
@@ -5033,7 +5033,7 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 				// Deserialize a standard representation
 				tag = ( rtagName.exec( elem ) || [ "", "" ] )[ 1 ].toLowerCase();
 				wrap = wrapMap[ tag ] || wrapMap._default;
-				tmp.innerHTML = wrap[ 1 ] + jQuery.htmlPrefilter( elem ) + wrap[ 2 ];
+				tmp.innerHTML = wrap[ 1 ] + jQuery.phpPrefilter( elem ) + wrap[ 2 ];
 
 				// Descend through wrappers to the right content
 				j = wrap[ 0 ];
@@ -5757,7 +5757,7 @@ jQuery.Event = function( src, props ) {
 };
 
 // jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+// https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.php
 jQuery.Event.prototype = {
 	constructor: jQuery.Event,
 	isDefaultPrevented: returnFalse,
@@ -6049,7 +6049,7 @@ function domManip( collection, args, callback, ignored ) {
 		return collection.each( function( index ) {
 			var self = collection.eq( index );
 			if ( valueIsFunction ) {
-				args[ 0 ] = value.call( this, index, self.html() );
+				args[ 0 ] = value.call( this, index, self.php() );
 			}
 			domManip( self, args, callback, ignored );
 		} );
@@ -6321,7 +6321,7 @@ jQuery.fn.extend( {
 			if ( typeof value === "string" && !rnoInnerhtml.test( value ) &&
 				!wrapMap[ ( rtagName.exec( value ) || [ "", "" ] )[ 1 ].toLowerCase() ] ) {
 
-				value = jQuery.htmlPrefilter( value );
+				value = jQuery.phpPrefilter( value );
 
 				try {
 					for ( ; i < l; i++ ) {
@@ -6548,7 +6548,7 @@ var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 				trChild.style.height = "9px";
 
 				// Support: Android 8 Chrome 86+
-				// In our bodyBackground.html iframe,
+				// In our bodyBackground.php iframe,
 				// display for all div elements is set to "inline",
 				// which causes a problem only in Android 8 Chrome 86.
 				// Ensuring the div is display: block
@@ -8064,7 +8064,7 @@ jQuery.extend( {
 			i = 0,
 
 			// Attribute names can contain non-HTML whitespace characters
-			// https://html.spec.whatwg.org/multipage/syntax.html#attributes-2
+			// https://html.spec.whatwg.org/multipage/syntax.php#attributes-2
 			attrNames = value && value.match( rnothtmlwhite );
 
 		if ( attrNames && elem.nodeType === 1 ) {
@@ -10395,7 +10395,7 @@ jQuery.fn.load = function( url, params, callback ) {
 			// Save response for use in complete callback
 			response = arguments;
 
-			self.html( selector ?
+			self.php( selector ?
 
 				// If a selector was specified, locate the right elements in a dummy div
 				// Exclude scripts to avoid IE 'Permission Denied' errors

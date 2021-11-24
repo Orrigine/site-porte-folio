@@ -19,7 +19,7 @@
     <div class="navbar-fixed">
         <nav class="nav-color">
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo z-depth-2" >Main Page</a>
+                <a href="index.php" class="brand-logo z-depth-2" >Main Page</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down z-depth-1">
                     <li><a class="z-depth-1" href="#c">About C</a></li>
                     <li><a class="z-depth-1" href="#project">Our project</a></li>
@@ -88,7 +88,7 @@
         <div class="col l6 s12">
 
           <h5 class="white-text">Contact Us</h5>
-          <p class="no-padding grey-text text-lighten-4">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.html">below</a></span>.</p>
+          <p class="no-padding grey-text text-lighten-4">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.php">below</a></span>.</p>
 
 
 
@@ -201,7 +201,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.html">Yaoi</a></span> Team
+        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.php">Yaoi</a></span> Team
       </div>
     </div>
   </footer>

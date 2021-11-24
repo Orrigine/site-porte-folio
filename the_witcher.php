@@ -1,89 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Python Project</title>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-  <link rel="stylesheet" href="./css/style_python.css">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Witcher 3 : Wild Hunt</title>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+<link rel="stylesheet" href="./css/style_witcher.css">
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-  <div class="navbar-fixed">
-    <nav class="transparent">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo z-depth-2">Main Page</a>
-            <ul id="nav-mobile" class=" right hide-on-med-and-down">
-                <li><a class="z-depth-1" href="#python">About Python</a></li>
-                <li><a class="z-depth-1" href="#project">Our project</a></li>
-            </ul>
-        </div>
-    </nav>
-  </div>  
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="./img/python/blog-async.jpeg" alt="Python"></div>
-  </div>
-
-    <div class="section blue darken-2">
-        <div class="row container">
-        <h1 class="header" id="python">About Python language</h1>
-        <div class="row">
-            <div class="col l1 hide-on-small-only"></div>
-            <div class="col l11 m11 s12">
-                <p class="black-text text-darken-3 lighten-3">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Python is simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. It is one of the most used language, and had changed the way of coding for many programmers with his unique syntax.</p>
+<!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="nav-color">
+            <div class="nav-wrapper">
+                <a href="index.php" class="brand-logo z-depth-2" >Main Page</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down z-depth-1">
+                    <li><a class="z-depth-1" href="#project">The project</a></li>
+                    <li><a class="z-depth-1" href="#witcher">About the witcher</a></li>
+                    <li><a class="z-depth-1" href="./The Witcher Project/index.php">Link to the website</a></li>
+                </ul>
             </div>
-        </div>
-        </div>
-    </div>    
-
-  <div class="parallax-container">
-    <div class="parallax"><img src="./img/python/stats_python.png" alt="Python"></div>
-  </div>
-
-    <div class="section blue darken-2">
-        <div class="row container">
-            <h2 class="header" id="project">Our Python Project</h2>
-            <div class="row">
-                <div class="col l1 hide-on-small-only"></div>
-                <div class="col l11 m11 s12">
-                    <p class="black-text">Our first project was about python language and algorithm, the goal was to create a "The Price is Right" in a terminal, in order to train ourselves in algorithm. It was a funny project, not very hard, but the real purpose was to create some add-ons. <br>
-                    The two images below are a shell with the game and the code in python.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col m12 l6 s12 ">
-                    <img class="img-responsive z-depth-4" src="./img/python/python_code1.png" alt="Python">
-                </div>
-                <div class="col m12 l6 s12 ">
-                    <img class="img-responsive z-depth-4" src="./img/python/python_code2.png" alt="Python">
-                </div>
-            </div>
-        </div> 
+        </nav>
     </div>
 
   <div class="parallax-container">
-    <div class="parallax"><img src="./img/python/python_with_logo.png" alt="Python"></div>
+    <div class="parallax"><img src="./img/the_witcher/paral1_witcher.png" alt="The Witcher 3"></div>
   </div>
-    
+
+  <div class="section black">
+    <div class="row container">
+      <h1 class="header" id="project">The aim of the project</h1>
+      <div class="row">
+        <div class="col l1"></div>
+          <div class="col l11">
+      <p class="white-text text-darken-3 lighten-3">The purpose of this project, is to train us on HTML with CSS and the rules of SEO. We learned the significance of organizing our ideas and setting up our schedule in order to not be overhelmed by the two weeks we had to create this site that we're proud of.    </p>
+            </div>
+        </div>
+    </div>
+  </div>    
+  
+  <div class="parallax-container">
+    <div class="parallax"><img src="./img/the_witcher/paral2_witcher.png" alt="The Witcher 3"></div>
+  </div>
+
+  <div class="section black">
+    <div class="row container">
+      <h2 class="header" id="witcher">About The Witcher III : Wild Hunt</h2>
+      <div class="row">
+        <div class="col l1"></div>
+          <div class="col l11">
+
+              <p class="white-text text-darken-3 lighten-3">The Witcher III : Wild Hunt is a game developped by <span class="red-text ">CD PROJEKT: RED</span>, a well-known polish studio in 2015. We choose this game because we <span><a class="white-text" target="blank" href="UwU.php">love</a></span> the universe of the saga, and the gameplay of this rewareded RPG open world is a pleasure to play. The artistic direction of the game is wonderful and landscapes are even more. When you launch the game, you'll be took in an incredible environement and a beautiful journey.</p>
+        </div>
+              
+      </div>
+    </div>
+  </div> 
+
+<div class="parallax-container ">
+  <div class="parallax"><img src="./img/the_witcher/preview_site.png" alt="The Witcher 3"></div>
+</div>
+  
+<hr>
 
 
-
-
-  <footer class="page-footer">
+<footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
 
           <h5 class="white-text">Contact Us</h5>
-          <p class="no-padding white-text ">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.html">below</a></span>.</p>
+          <p class="no-padding grey-text text-lighten-4">If you want to conctact us, please click on the button <span><a class="grey-text text-lighten-4"  target="_blank" rel="nofollow" href="elevator.php">below</a></span>.</p>
 
 
 
@@ -196,13 +189,13 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.html">Yaoi</a></span> Team
+        © 2021 <span><a style="color: rgba(255, 255, 255, 0.8);"  target="_blank" rel="nofollow" href="https://www.cultura.com/incitant-porno-9782368776834.php">Yaoi</a></span> Team
       </div>
     </div>
   </footer>
-  
-  <script src="./js/jQuery.js"></script>
-  <script src="./js/materialize.js"></script>
-  <script src="./js/script.js"></script>
+
+<script src="./js/jQuery.js"></script>
+<script src="./js/materialize.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
